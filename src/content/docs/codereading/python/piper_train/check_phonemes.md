@@ -5,11 +5,6 @@ description: check_phonemes.py
 
 ## Code Explained
 
-<audio controls>
-  <source src="/check_phonemes.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
-
 The provided Python code is a utility script designed to analyze phoneme usage in a dataset. Phonemes are the smallest units of sound in speech, and this script processes input data to identify which phonemes are used and which are missing from a predefined mapping (`DEFAULT_PHONEME_ID_MAP`). The script reads JSON-formatted input line-by-line from standard input (`sys.stdin`), making it suitable for use in a pipeline or as part of a larger text-to-speech (TTS) preprocessing workflow.
 
 The script begins by initializing two `Counter` objects, `used_phonemes` and `missing_phonemes`. These counters are used to track the frequency of phonemes encountered in the input data. The `used_phonemes` counter keeps a tally of all phonemes found, while the `missing_phonemes` counter specifically tracks phonemes that are not present in the `DEFAULT_PHONEME_ID_MAP`.
