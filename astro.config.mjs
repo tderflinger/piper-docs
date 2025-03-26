@@ -6,8 +6,7 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   site: "https://tderflinger.github.io",
   output: "static",
-  base: "/piper-docs",
-  trailingSlash: "never",
+  //base: "/piper-docs",
   integrations: [
     starlight({
       title: "Piper Documentation",
