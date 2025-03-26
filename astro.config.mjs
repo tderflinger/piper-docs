@@ -4,6 +4,7 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  base: "/piper-docs",  // deployed to GitHub Pages under /piper-docs
   integrations: [
     starlight({
       title: "Piper Documentation",
