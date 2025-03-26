@@ -18,5 +18,5 @@ For training Piper has these additional dependencies:
 - numpy
 - pytorch-lightning
 - torch
-- espeak-ng (installed as external application)
+- espeak-ng (installed as external application) 
 
