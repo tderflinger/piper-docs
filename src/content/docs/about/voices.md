@@ -5,7 +5,7 @@ description: Voices
 
 Our goal is to support Home Assistant and the [Year of Voice](https://www.home-assistant.io/blog/2022/12/20/year-of-voice/).
 
-[Download voices](VOICES.md) for the supported languages:
+[Download voices](about/download) for the supported languages:
 
 * Arabic (ar_JO)
 * Catalan (ca_ES)
