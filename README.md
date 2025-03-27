@@ -6,3 +6,8 @@ This is the documentation effort for the [Piper TTS (text-to-speech)](https://gi
 
 It is built using the Astro Starlight theme.
 
+Documentation site: https://tderflinger.github.io/piper-docs
+
+## License
+
+MIT License
